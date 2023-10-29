@@ -1,0 +1,114 @@
+.result {
+    margin-top: 20px;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    background-color: #333;
+    text-align: center;
+}
+
+nav li {
+    display: inline;  /* Changer ici */
+}
+
+nav a {
+    text-decoration: none;
+    padding: 15px 20px;
+    display: inline-block;  /* Ajouter cette ligne */
+    color: white;
+}
+
+nav a:hover {
+    background-color: #555;
+}
+
+
+h1 {
+    font-size: 2em;
+    text-align: center;
+}
+
+form {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="number"],
+input[type="date"],
+select,
+textarea {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+}
+
+input[type="radio"] {
+    margin-right: 5px;
+}
+
+button {
+    background: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #555;
+}
+
+button[type="reset"] {
+    background: #bbb;
+}
+
+button[type="reset"]:hover {
+    background: #aaa;
+}
+
+.output,
+.result {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Aligner les étiquettes et les boutons radio horizontalement */
+fieldset label {
+    display: inline-block;
+    margin-right: 20px; /* ajustez l'espacement selon vos préférences */
+}
+
+/* Aligner les boutons radio avec leurs étiquettes */
+fieldset input[type="radio"] {
+    vertical-align: middle;
+}
+
+/* Pour assurer une meilleure lisibilité, vous pouvez ajouter un peu d'espace autour des étiquettes */
+fieldset label {
+    padding: 0 5px;
+}

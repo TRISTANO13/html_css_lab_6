@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="js/script.js"></script>
+    <title>Excel Functions</title>
+</head>
+<header>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="excel.html">Excel</a></li>
+        </ul>
+    </nav>
+</header>
+<body>
+    <h1>Excel Functions</h1>
+    <form id="excelForm">
+        <label for="numbers">Enter numbers (space separated):</label>
+        <input type="text" id="numbers" name="numbers" required>
+        <p>Example: 1 2 3 4 5</p>
+        
+        <fieldset>
+            <legend>Select a function</legend>
+            <input type="radio" id="autoSum" name="function" value="AutoSum" checked>
+            <label for="autoSum">AutoSum</label><br>
+            
+            <input type="radio" id="average" name="function" value="Average">
+            <label for="average">Average</label><br>
+            
+            <input type="radio" id="min" name="function" value="Min">
+            <label for="min">Min</label><br>
+            
+            <input type="radio" id="max" name="function" value="Max">
+            <label for="max">Max</label><br>
+        </fieldset>
+        <br>
+        
+        <button type="button" id="calculate">Calculate</button>
+    </form>
+    <div class="output" id="output"></div>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
